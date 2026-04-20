@@ -46,6 +46,7 @@ const router = createRouter({
         { path: '', name: 'dashboard', component: DashboardView, meta: { title: 'Bienvenido' } },
         { path: 'authors', name: 'authors', component: AuthorsView, meta: { title: 'Autores' } },
         { path: 'books', name: 'books', component: BooksView, meta: { title: 'Libros' } },
+        { path: 'companies', name: 'companies', component: () => import('@/views/companies/CompaniesView.vue'), meta: { title: 'Empresas' } },
       ],
     },
   ],

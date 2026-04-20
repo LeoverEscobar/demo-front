@@ -35,6 +35,7 @@ const items: NavItem[] = [
   { label: 'Tablero', icon: 'pi pi-home', to: '/' },
   { label: 'Autores', icon: 'pi pi-user-edit', to: '/authors' },
   { label: 'Libros', icon: 'pi pi-book', to: '/books' },
+  { label: 'Empresas', icon: 'pi pi-building', to: '/companies' },
 ]
 
 /**
